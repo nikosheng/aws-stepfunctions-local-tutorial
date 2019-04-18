@@ -23,4 +23,9 @@ Please refer to the [Setting Up Step Functions Local (Downloadable Version)](htt
 
 The [AWS Serverless Application Model (AWS SAM)](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) is an open-source framework that you can use to build serverless applications on AWS. We will use AWS SAM to develop and test AWS Lambda Local.
 
+3. Initialize the Lambda Local function with AWS SAM
 
+  - Run the following command at an AWS SAM CLI command prompt.
+  ```
+  sam init --runtime python3.6 
+  ```
