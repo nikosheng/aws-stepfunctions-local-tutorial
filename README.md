@@ -1,4 +1,4 @@
-# aws-stepfunctions-local-handson
+# aws-stepfunctions-local-tutorial
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 A hands-on beginning guide to build up a AWS Step Functions project in local environment
@@ -29,3 +29,14 @@ The [AWS Serverless Application Model (AWS SAM)](https://docs.aws.amazon.com/ser
   ```
   sam init --runtime python3.6 
   ```
+  - A project folder(sam-app/) will be generated. It is a sample app to display the local ip address.
+  - Build the project by using command
+  ```
+  sam build
+  ```
+  - Test the Lambda function locally
+  ```
+  sam local start-api
+  ```
+  The command returns an API Gateway endpoint, which you can send requests to for local testing.
+  
