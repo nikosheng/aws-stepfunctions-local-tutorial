@@ -15,15 +15,15 @@ SFL enables developers to develop and test applications using a version of Step 
 
 ## Getting Started
 ---
-> 1. Setting Up Step Functions Local 
+> Setting Up Step Functions Local 
 
 Please refer to the [Setting Up Step Functions Local (Downloadable Version)](https://docs.aws.amazon.com/step-functions/latest/dg/sfn-local.html) in AWS Official Document website to setup the environment.
 
-> 2. Setting Up AWS SAM Framework
+> Setting Up AWS SAM Framework
 
 The [AWS Serverless Application Model (AWS SAM)](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) is an open-source framework that you can use to build serverless applications on AWS. We will use AWS SAM to develop and test AWS Lambda Local.
 
-> 3. Initialize the Lambda Local function with AWS SAM
+> Initialize the Lambda Local function with AWS SAM
 
   - Run the following command at an AWS SAM CLI command prompt.
   ```
