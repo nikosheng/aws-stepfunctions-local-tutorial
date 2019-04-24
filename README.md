@@ -39,4 +39,9 @@ The [AWS Serverless Application Model (AWS SAM)](https://docs.aws.amazon.com/ser
   sam local start-api
   ```
   The command returns an API Gateway endpoint, which you can send requests to for local testing.
+  - In the teminal, use `curl` to test the Lambda function
+  ```
+  curl http://127.0.0.1:3000/hello 
+  {"message": "hello world", "location": "72.21.198.66"}
+  ```
   
