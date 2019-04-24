@@ -30,7 +30,7 @@ The [AWS Serverless Application Model (AWS SAM)](https://docs.aws.amazon.com/ser
   sam init --runtime python3.6 
   ```
   - A project folder(sam-app/) will be generated. It is a sample app to display the local ip address.
-  - Build the project by using command
+  - In the sam-app directory, build the project by using command
   ```
   sam build
   ```
@@ -44,4 +44,9 @@ The [AWS Serverless Application Model (AWS SAM)](https://docs.aws.amazon.com/ser
   curl http://127.0.0.1:3000/hello 
   {"message": "hello world", "location": "72.21.198.66"}
   ```
-  
+  - If the testing works, start the lambda local
+  ```
+  sam local start-lambda
+  ```
+### Initialize the Step Functions Local with Docker
+  - In this tutorial, we will use docker to launch the Step Functions Local, you might launch it by Jar package
